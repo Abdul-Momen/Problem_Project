@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Problem_one_Activity">
+
+<androidx.core.widget.NestedScrollView
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+
+            android:text="Write a Java program to input marks of five subjects of a student and calculate total, average and percentage of all subjects. How to calculate total, average and percentage in java programming. Logic to find total, average and percentage in java program.\n\n
+Example:\n
+Input:\n
+Enter marks of five subjects: 95 76 85 90 89\n
+Output:\n
+Total = 435\n
+Average = 87\n
+Percentage = 87.00"
+            />
+
+
+        <EditText
+            android:id="@+id/et_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint=" Enter Math Number"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/et_two_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Enter Bangla Number"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/et_three_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Enter English Number"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/et_four_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Enter physics Number"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/et_five_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Enter biology Number"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Result:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_below="@id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/total_btn_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:text="Total"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/avarece_btn_id"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:text="Average"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/percent_btn_id"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:text="Percentage"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

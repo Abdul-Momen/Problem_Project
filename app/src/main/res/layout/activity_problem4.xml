@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Problem_one_Activity">
+
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write a Java program to input temperature in Centigrade and convert to Fahrenheit. How to convert temperature from degree centigrade to degree Fahrenheit in Java programming. Logic to convert temperature from Celsius to Fahrenheit in Java.\n\n
+
+Example:\n
+Input:\n
+Enter temperature in Celsius = 100\n
+Output:\n
+Temperature in Fahrenheit = 212 F"/>
+
+
+
+        <EditText
+            android:hint="  Enter length in centimeter"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_border"
+            android:inputType="number"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/faherheit_btn_id"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/buttonshape"
+                android:text="Fahrenheit"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

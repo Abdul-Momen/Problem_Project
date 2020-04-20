@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <Button
+        android:id="@+id/button_problem_1"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem one"
+        />
+    <Button
+        android:id="@+id/button_problem_2"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem two"
+        />
+ <Button
+        android:id="@+id/button_problem_3"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem three"
+        />
+ <Button
+        android:id="@+id/button_problem_4"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem four"
+        />
+ <Button
+        android:id="@+id/button_problem_5"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem five"
+        />
+ <Button
+        android:id="@+id/button_problem_6"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem six"
+        />
+ <Button
+        android:id="@+id/button_problem_7"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem seven"
+        />
+ <Button
+        android:id="@+id/button_problem_8"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshape"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Problem Eight"
+        />
+
+
+    </LinearLayout>
+</LinearLayout>

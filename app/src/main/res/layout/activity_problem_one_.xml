@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Problem_one_Activity">
+
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write a Java program to input two numbers from user and calculate their sum. Java program to add two numbers and display their sum as output. How to add two numbers in Java programming.\nExample:\n
+Input
+Input first number: 20\n
+Input second number: 10\n
+Output
+
+Sum = 30"/>
+
+
+
+            <EditText
+                android:hint="  Input 1st Number"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_one_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_border"
+                android:inputType="number"
+               />
+
+
+            <EditText
+                android:hint="  Input 2nd Number"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_two_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_border"
+                android:inputType="number"
+           />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/submit_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/buttonshape"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

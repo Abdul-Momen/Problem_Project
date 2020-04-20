@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Problem_one_Activity">
+
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write a Java program to input length in centimeter and convert it to meter and kilometer. How to convert length from centimeter to meter and kilometer in Java programming. Length conversion program in Java from centimeter to meter and centimeter to kilometer.\n\n
+Example:\n
+Input\n
+Enter length in centimeter = 1000\n
+Output:\n
+
+Length in meter = 10 m\n
+Length in kilometer = 0.01 km"/>
+
+
+
+        <EditText
+            android:hint="  Enter length in centimeter"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_border"
+            android:inputType="number"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/meter_btn_id"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/buttonshape"
+                android:text="Meter"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/kilometer_btn_id"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/buttonshape"
+                android:text="Kilometer"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
